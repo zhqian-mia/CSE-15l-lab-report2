@@ -41,13 +41,9 @@ int[] input3 = {0, 1, 2, 3};
 int[] input1 = {3};
 ```
 * symptom 1 (failure-inducing input):  
-```
-{null, null, null, null};
-```
+![symptom 1](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%883.50.11.png?raw=true)
 * symptom 2: 
-```
-new int[]{3}
-```
+![symptom 2](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%883.50.30.png?raw=true)
 * Code before: 
 ```
 static void reverseInPlace(int[] arr){
