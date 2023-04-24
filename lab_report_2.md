@@ -34,7 +34,7 @@
 ***part 2***  
 * failure-inducing input:  
 ```
-int[] input3 = {0, 1, 2, 3};
+int[] input2 = {0, 1, 2, 3};
 ```
 * input that does not induce failure: 
 ```
