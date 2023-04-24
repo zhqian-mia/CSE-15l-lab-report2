@@ -15,11 +15,19 @@ Open the link using Google, you should see something like this initially.
   
 Enter `/add-message?s=<string>`, replace the `<string>` with any string you want to show. Below is what you should get if you enter `/add-message?s=Good Morning!`  
 ![morning](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%881.34.14.png?raw=true)
-* The handleRequest method are called.  
-* The argument to this method is `http://localhost:7028/add-message?s=Good%20Morning!`  
-
+* The `handleRequest` method are called.  
+* The argument to this method is `http://localhost:7028/add-message?s=Good Morning!`  
+* `content` is the field of the class. The initial value of the content is empty string.
+* After we enter the `/add-message?s=<string>` request, the content's value become `"Good Morning!"`.  
   
 Now, let's try `/add-message?s=<string>` and replace the `<string>` with `What a lovely day!`. Now the website should look like this:
-![lovely](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%881.34.39.png?raw=true)
+![lovely](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%881.34.39.png?raw=true)  
+* The `handleRequest` method were called again.  
+* The arguement now is `http://localhost:7028/add-message?s=What a lovely day!`
+* The values of the relevant field of the class is `"Good Morning!\nWhat a lovely day!"`
+* The value of the content was updated after we enter the new command. That is because in our code we want to keep the string content that was entered by us everytime.  
+  
+*part 2*  
+
 
 
