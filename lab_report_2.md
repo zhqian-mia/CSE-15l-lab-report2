@@ -1,5 +1,5 @@
 # Lab report 2
-***part 1*** 
+***part 1***   
 **First step, create a web server called `StringServer`. In order to do that, open the github desktop, and open the weaver by VS code.**  
   
 **Then, you need to create a new file and named it `StringServer.java`**    
