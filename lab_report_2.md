@@ -1,5 +1,7 @@
 # Lab report 2
+  
 ***part 1***   
+  
 **First step, create a web server called `StringServer`. In order to do that, open the github desktop, and open the weaver by VS code.**  
   
 **Then, you need to create a new file and named it `StringServer.java`**    
@@ -32,6 +34,7 @@
 * The value of the content was updated after we enter the new command. That is because in our code we want to keep the string content that was entered by us everytime.  
   
 ***part 2***  
+  
 * failure-inducing input:  
 ```
 int[] input2 = {0, 1, 2, 3};
@@ -64,8 +67,6 @@ static void reverseInPlace(int[] arr){
 ```
   
 ***part 3***  
+  
 * In lab2, I learned to create a local server and increment the amount of time that I refersh the page by adding `/increment` in the end of path. 
-* In lab 3, I learned to debug in a more comprehensive way. Such as when calculating the avergae value by rule out the smallest number, we need to minus the number of smallest number instead of just minus one. That is because it is possible that we have more than one smallest number, for example: int[] {1, 1, 1, 9, 8, 4}. In this condition, we need to minus three when divding by the total amount of numbers.
-
-
-
+* In lab 3, I learned to debug in a more comprehensive way. Such as when calculating the avergae value by rule out the smallest number, we need to minus the number of smallest number instead of just minus one. That is because it is possible that we have more than one smallest number, for example: `int[] {1, 1, 1, 9, 8, 4}`. In this condition, we need to minus three when divding by the total amount of numbers.
