@@ -38,7 +38,7 @@ int[] input3 = {0, 1, 2, 3};
 ```
 * input that does not induce failure: 
 ```
-int[] input1 = { };
+int[] input1 = {3};
 ```
 * symptom 1 (failure-inducing input):  
 ```
@@ -46,7 +46,7 @@ int[] input1 = { };
 ```
 * symptom 2: 
 ```
-new int[]{ }
+new int[]{3}
 ```
 * Code before: 
 ```
