@@ -63,8 +63,9 @@ static void reverseInPlace(int[] arr){
 }
 ```
   
-***part 3***
-<describe something you learn from lab in week 2 or week 3>
+***part 3***  
+* In lab2, I learned to create a local server and increment the amount of time that I refersh the page by adding `/increment` in the end of path. 
+* In lab 3, I learned to debug in a more comprehensive way. Such as when calculating the avergae value by rule out the smallest number, we need to minus the number of smallest number instead of just minus one. That is because it is possible that we have more than one smallest number, for example: int[] {1, 1, 1, 9, 8, 4}. In this condition, we need to minus three when divding by the total amount of numbers.
 
 
 
