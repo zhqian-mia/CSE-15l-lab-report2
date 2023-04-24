@@ -31,7 +31,16 @@
 * The values of the relevant field of the class is `"Good Morning!\nWhat a lovely day!"`
 * The value of the content was updated after we enter the new command. That is because in our code we want to keep the string content that was entered by us everytime.  
   
-**part 2**  
+***part 2***  
+* failure-inducing input:  
+* input that does not induce failure:  
+* symptom 1:  
+* symptom 2:  
+* Code before:  
+* Code after:  
+  
+***part 3***
+<describe something you learn from lab in week 2 or week 3>
 
 
 
