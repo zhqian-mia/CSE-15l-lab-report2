@@ -47,7 +47,7 @@ int[] input1 = {3};
 ![symptom 1](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%883.50.11.png?raw=true)
 * symptom 2: 
 ![symptom 2](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%883.50.30.png?raw=true)
-* Code before: 
+* Code before:   
 ```java
 static void reverseInPlace(int[] arr){
   for (int i = 0; i < arr.length; i += 1){
@@ -55,7 +55,7 @@ static void reverseInPlace(int[] arr){
   }
 }
 ```
-* Code after:  
+* Code after:    
 ```java
 static void reverseInPlace(int[] arr){
   for (int i = 0; i < arr.length; i += 1){
