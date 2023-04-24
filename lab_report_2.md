@@ -34,13 +34,38 @@
 ***part 2***  
 * failure-inducing input:  
 ```
-# code block
+int[] input3 = {0, 1, 2, 3};
 ```
-* input that does not induce failure:  
-* symptom 1:  
-* symptom 2:  
-* Code before:  
+* input that does not induce failure: 
+```
+
+```
+* symptom 1 (failure-inducing input):  
+```
+{null, null, null, null};
+```
+* symptom 2: 
+```
+# don't know yet
+```
+* Code before: 
+```
+static void reverseInPlace(int[] arr){
+  for (int i = 0; i < arr.length; i += 1){
+  arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
 * Code after:  
+```
+static void reverseInPlace(int[] arr){
+  for (int i = 0; i < arr.length; i += 1){
+  int temp = arr[i];
+  arr[i] = arr[arr.length - 1 - i];
+  arr[arr.length -1 - i] = temp;
+  }
+}
+```
   
 ***part 3***
 <describe something you learn from lab in week 2 or week 3>
