@@ -33,6 +33,9 @@
   
 ***part 2***  
 * failure-inducing input:  
+```
+# code block
+```
 * input that does not induce failure:  
 * symptom 1:  
 * symptom 2:  
