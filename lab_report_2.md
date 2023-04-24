@@ -15,6 +15,9 @@ Open the link using Google, you should see something like this initially.
   
 Enter `/add-message?s=<string>`, replace the `<string>` with any string you want to show. Below is what you should get if you enter `/add-message?s=Good Morning!`  
 ![morning](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%881.34.14.png?raw=true)
+The handleRequest method are called.  
+The argument to this method is `http://localhost:7028/add-message?s=Good%20Morning!`  
+
   
 Now, let's try `/add-message?s=<string>` and replace the `<string>` with `What a lovely day!`. Now the website should look like this:
 ![lovely](https://github.com/zhqian-mia/CSE-15l-lab-report2/blob/main/%E6%88%AA%E5%B1%8F2023-04-24%20%E4%B8%8B%E5%8D%881.34.39.png?raw=true)
